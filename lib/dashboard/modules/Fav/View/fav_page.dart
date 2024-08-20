@@ -1,5 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:mobile_app/core/cubit/parent_cubit.dart';
 import 'package:mobile_app/dashboard/modules/Cart/Controller/cart_cubit.dart';
 import 'package:mobile_app/dashboard/modules/Cart/Controller/cart_state.dart';
@@ -23,27 +24,6 @@ class FavScreen extends StatelessWidget {
                   child: _buildCartList(state.cart),
                 ),
               ],
-            ),
-            bottomNavigationBar: InkWell(
-              onTap: () {
-                Fluttertoast.showToast(
-                  msg: "Payment Successful",
-                  toastLength: Toast.LENGTH_SHORT,
-                  gravity: ToastGravity.CENTER,
-                  timeInSecForIosWeb: 2,
-                  backgroundColor: Color.fromARGB(255, 26, 63, 144),
-                  textColor: Colors.black,
-                  fontSize: 16.0,
-                );
-              },
-              child: Container(
-                // color: Color.fromARGB(255, 45, 93, 171),
-                alignment: Alignment.center,
-                height: 50.0,
-                child: const Text(
-                  '',
-                ),
-              ),
             ),
           );
         },
@@ -76,7 +56,7 @@ class FavScreen extends StatelessWidget {
               itemCount: my_cart.length,
               itemBuilder: (context, index) {
                 return Card(
-                  color: Colors.blueGrey.shade200,
+                  color: Colors.white,
                   elevation: 5.0,
                   child: Padding(
                     padding: const EdgeInsets.all(0),
@@ -84,53 +64,37 @@ class FavScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        Image.asset(
-                          my_cart[index].image.toString(),
-                          height: 150,
-                          width: 80,
+                        Container(
+                          margin: const EdgeInsets.all(10.0),
+                          child: Image.asset(
+                            my_cart[index].image.toString(),
+                            height: 130,
+                            width: 100,
+                          ),
                         ),
                         const SizedBox(width: 8.0),
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              RichText(
+                              Text(
+                                '${my_cart[index].model}\n',
+                                maxLines: 2,
                                 overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
-                                text: TextSpan(
-                                  style:
-                                      Theme.of(context).textTheme.bodyLarge ??
-                                          TextStyle(
-                                            color: Colors.blueGrey.shade800,
-                                            fontSize: 16.0,
-                                          ),
-                                  children: [
-                                    TextSpan(
-                                      text: '${my_cart[index].brand}\n',
-                                      style: const TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                  ],
+                                style: GoogleFonts.kadwa(
+                                  fontSize: 20.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.blue,
                                 ),
                               ),
-                              RichText(
+                              Text(
+                                '${my_cart[index].price} EGP',
                                 overflow: TextOverflow.ellipsis,
-                                maxLines: 1,
-                                text: TextSpan(
-                                  text: 'Price: ' r"$",
-                                  style: TextStyle(
-                                    color: Colors.blueGrey.shade800,
-                                    fontSize: 16.0,
-                                  ),
-                                  children: [
-                                    TextSpan(
-                                      text: '${my_cart[index].price}\n',
-                                      style: const TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                  ],
+                                maxLines: 2,
+                                style: GoogleFonts.kadwa(
+                                  fontSize: 18.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black,
                                 ),
                               ),
                             ],
@@ -191,9 +155,30 @@ class PlusMinusButtons extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        IconButton(onPressed: deleteQuantity, icon: const Icon(Icons.remove)),
-        Text(text),
-        IconButton(onPressed: addQuantity, icon: const Icon(Icons.add)),
+        IconButton(
+          onPressed: deleteQuantity,
+          icon: const Icon(
+            CupertinoIcons.minus_circle,
+            size: 25,
+            color: Colors.black,
+          ),
+        ),
+        Text(
+          text,
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.black,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        IconButton(
+          onPressed: addQuantity,
+          icon: Icon(
+            CupertinoIcons.plus_circle,
+            color: Colors.black,
+            size: 25,
+          ),
+        ),
       ],
     );
   }

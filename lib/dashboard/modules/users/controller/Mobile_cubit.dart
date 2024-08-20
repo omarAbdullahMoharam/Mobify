@@ -300,7 +300,7 @@ class ProductCubit extends Cubit<ProductState> {
       quantity: 1,
       availabilityState: 1,
       brand: 'Microsoft',
-      model: 'Headset',
+      model: 'Headset Microsoft',
       color: 'Black',
       processor: 'processor',
       cameraResolution: 'cameraResolution',

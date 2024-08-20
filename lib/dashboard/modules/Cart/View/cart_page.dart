@@ -34,7 +34,7 @@ class CartScreen extends StatelessWidget {
                   gravity: ToastGravity.CENTER,
                   timeInSecForIosWeb: 2,
                   backgroundColor: Color.fromARGB(255, 26, 63, 144),
-                  textColor: Colors.black,
+                  textColor: Colors.white,
                   fontSize: 16.0,
                 );
               },
