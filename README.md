@@ -101,6 +101,6 @@ This project was made possible thanks to the contributions of the following team
 
 - **Ahmed Khalid Refaei** - *Frontend Developer*  
   - [GitHub Profile](https://github.com/elref7i)
-  - [Email](mailto:omarmoharam790@gmail.com)
+  - [Email](mailto:momo3956248@gmail.com)
 
 Feel free to reach out to us with any questions or suggestions!
