@@ -1,4 +1,4 @@
-# mobify
+# Mobify
 
 A new Flutter project.
 
@@ -6,26 +6,57 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-![Splash](splash.png) 
-![OnBoarding](onboarding1.png)  ![OnBoarding](onboarding2.png) ![OnBoarding](onboarding3.png)
+### Splash Screen
+<p align="center">
+  <img src="splash.png" alt="Splash" width="300">
+</p>
 
-![Sign UP ](signup.png)  ![Login](login.png) 
+### Onboarding Screens
+<p align="center">
+  <img src="onboarding1.png" alt="OnBoarding 1" width="200">
+  <img src="onboarding2.png" alt="OnBoarding 2" width="200">
+  <img src="onboarding3.png" alt="OnBoarding 3" width="200">
+</p>
 
+### Authentication Screens
+<p align="center">
+  <img src="signup.png" alt="Sign Up" width="200">
+  <img src="login.png" alt="Login" width="200">
+  <img src="email.png" alt="Email" width="200">
+  <img src="reset.png" alt="Reset" width="200">
+  <img src="otp.png" alt="OTP Code" width="200">
+</p>
 
-![Email](email.png)   ![Reset](reset.png)    ![OTP Code](otp.png)
+### Home Screens
+<p align="center">
+  <img src="homeL.png" alt="Home Light" width="200">
+  <img src="homeD.png" alt="Home Dark" width="200">
+</p>
 
-![Home Light](homeL.png)   ![Home Dark](homeD.png)
+### Favorite Screens
+<p align="center">
+  <img src="favL.png" alt="Favorite Light" width="200">
+  <img src="favD.png" alt="Favorite Dark" width="200">
+</p>
 
-![Favourite Light](favL.png)   ![Favourite Dark](favD.png)
+### Cart Screens
+<p align="center">
+  <img src="cartL.png" alt="Cart Light" width="200">
+  <img src="cartD.png" alt="Cart Dark" width="200">
+  <img src="cartToast.png" alt="Cart Toast" width="200">
+</p>
 
-![Cart Light](cartL.png)    ![Cart Dark](cartD.png)   ![Cart Toast](cartToast.png)
+### Profile Screens
+<p align="center">
+  <img src="profileL.png" alt="Profile Light" width="200">
+  <img src="profileD.png" alt="Profile Dark" width="200">
+</p>
 
-![Profile Light](profileL.png)   ![Profile Dark](profileD.png)
-![Product Light](productL.png)   ![Product Dark](productD.png)
-
-
-
-
+### Product Screens
+<p align="center">
+  <img src="productL.png" alt="Product Light" width="200">
+  <img src="productD.png" alt="Product Dark" width="200">
+</p>
 
 A few resources to get you started if this is your first Flutter project:
 
