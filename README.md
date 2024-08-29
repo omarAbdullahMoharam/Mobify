@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-## Getting Started
+## Getting Started 🩵🏁
 
 This project is a starting point for a Flutter application.
 
@@ -58,7 +58,7 @@ This project is a starting point for a Flutter application.
   <img src="productD.png" alt="Product Dark" width="200">
 </p>
 
-### Resources to Kickstart Your Flutter Journey
+### Resources to Kickstart Your Flutter Journey🔻🎯
 
 Whether you're new to Flutter or looking to sharpen your skills, the following resources are designed to guide you through every step of your development journey:
 
