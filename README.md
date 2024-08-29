@@ -46,17 +46,22 @@ This project is a starting point for a Flutter application.
   <img src="cartToast.png" alt="Cart Toast" width="200">
 </p>
 
+### Product Screens
+<p align="center">
+  <img src="productL.png" alt="Product Light" width="200">
+  <img src="productD.png" alt="Product Dark" width="200">
+</p>
+
+
 ### Profile Screens
 <p align="center">
   <img src="profileL.png" alt="Profile Light" width="200">
   <img src="profileD.png" alt="Profile Dark" width="200">
 </p>
 
-### Product Screens
-<p align="center">
-  <img src="productL.png" alt="Product Light" width="200">
-  <img src="productD.png" alt="Product Dark" width="200">
-</p>
+
+
+
 
 ### Resources to Kickstart Your Flutter Journey🔻🎯
 
@@ -81,3 +86,21 @@ Whether you're new to Flutter or looking to sharpen your skills, the following r
 - **[Flutter Community on Discord](https://discord.com/invite/flutter):** Join the vibrant Flutter Discord community to connect with other developers, ask questions, share your knowledge, and collaborate on projects.
 
 For comprehensive guidance on Flutter development, including tutorials, samples, and full API reference, visit the official **[Flutter documentation](https://docs.flutter.dev/)**.
+
+## Contributors 🧑🏻‍🤝‍🧑🏼🤍
+
+This project was made possible thanks to the contributions of the following team members:
+
+- **Omar Abdullah Moharam** - *Flutter Lead Developer*  
+  - [GitHub Profile](https://github.com/omarmoharam790)
+  - [Email](mailto:omarmoharam790@gmail.com)
+
+- **Haneen Mohamed** - *Backend Developer*  
+  - [GitHub Profile](https://github.com/Ho0nn)
+  - [Email](mailto:omarmoharam790@gmail.com)
+
+- **Ahmed Khalid Refaei** - *Frontend Developer*  
+  - [GitHub Profile](https://github.com/elref7i)
+  - [Email](mailto:omarmoharam790@gmail.com)
+
+Feel free to reach out to us with any questions or suggestions!
