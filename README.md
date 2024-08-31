@@ -97,7 +97,7 @@ This project was made possible thanks to the contributions of the following team
 
 - **Haneen Mohamed** - *Backend Developer*  
   - [GitHub Profile](https://github.com/Ho0nn)
-  - [Email](mailto:omarmoharam790@gmail.com)
+  - [Email](mailto:haneen.m.elfeky@gmail.com)
 
 - **Ahmed Khalid Refaei** - *Frontend Developer*  
   - [GitHub Profile](https://github.com/elref7i)
