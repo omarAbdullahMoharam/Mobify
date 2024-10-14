@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mobile_app/auth/onboarding/controller/cubit/onboarding_cubit.dart';
 
+// ignore: must_be_immutable
 class OnBoardingBody extends StatelessWidget {
   OnBoardingBody({super.key, required this.controller});
   OnboardingCubit controller;

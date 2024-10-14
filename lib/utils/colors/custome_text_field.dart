@@ -47,6 +47,7 @@ class CustomNameValidationState extends State<CustomNameValidation> {
 }
 
 //----------EMAIL----------------
+// ignore: must_be_immutable
 class Custom_textfield extends StatefulWidget {
   Custom_textfield({super.key, this.hintText});
   String? hintText;

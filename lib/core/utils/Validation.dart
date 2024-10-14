@@ -19,10 +19,6 @@ class Validation {
   }
 
   String? validateName(String? name) {
-    TextInputFormatter nameInputFormatter = FilteringTextInputFormatter.allow(
-      RegExp(r'^[a-zA-Z\s]*$'),
-    );
-
     bool nameValidator =
         RegExp(r"^[a-zA-Z0-9.a-zA-Z0-9A-Z0-9]").hasMatch(name!) &&
             ((name.length) > 8);

@@ -1,3 +1,5 @@
+// ignore_for_file: unused_element
+
 import 'dart:developer';
 import 'package:bloc/bloc.dart';
 import 'package:mobile_app/Database/repo/DBHelper.dart';

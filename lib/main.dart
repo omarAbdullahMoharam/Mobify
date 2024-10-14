@@ -24,6 +24,7 @@ void main() async {
           // ignore: deprecated_member_use
           useInheritedMediaQuery: true,
           debugShowCheckedModeBanner: false,
+
           onGenerateRoute: MyRoutes.onGenerateRoute,
           onGenerateInitialRoutes: (_) =>
               onBoarding ? MyRoutes.intitial1 : MyRoutes.intitialRoute,
