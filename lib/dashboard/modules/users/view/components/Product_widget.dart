@@ -32,7 +32,6 @@ class ProductItemWidget extends StatelessWidget {
           return Stack(
             children: [
               Card(
-                // padding: const EdgeInsets.all(8.0),
                 child: DecoratedBox(
                   decoration: BoxDecoration(
                     color: Colors.white,
