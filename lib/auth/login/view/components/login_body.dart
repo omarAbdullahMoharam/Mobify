@@ -46,23 +46,23 @@ class LoginBody extends StatelessWidget {
                 child: Column(
                   children: [
                     const Spacer(
-                      flex: 2,
+                      flex: 4,
                     ),
                     Image.asset(
                       'assets/images/logo.png',
-                      height: 70,
-                      width: 70,
+                      height: 100,
+                      width: 100,
                     ),
                     const Text(
                       'Mobile Store',
                       style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 24,
                         color: Color.fromARGB(255, 61, 53, 53),
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     const Spacer(
-                      flex: 1,
+                      flex: 4,
                     ),
                     const Row(
                       children: [
@@ -78,10 +78,10 @@ class LoginBody extends StatelessWidget {
                     ),
                     Row(
                       children: [
-                        const Text(
+                        Text(
                           'Don\'t  have an account?',
                           style: TextStyle(
-                            color: Colors.grey,
+                            color: Colors.grey.shade700,
                             fontSize: 15,
                           ),
                         ),
@@ -129,10 +129,10 @@ class LoginBody extends StatelessWidget {
                           onTap: () {
                             Navigator.of(context).pushNamed('confirm');
                           },
-                          child: const Text(
+                          child: Text(
                             'Forget Password ?',
                             style: TextStyle(
-                              color: Colors.grey,
+                              color: Colors.grey.shade700,
                               fontSize: 16,
                               fontStyle: FontStyle.italic,
                             ),
@@ -150,10 +150,10 @@ class LoginBody extends StatelessWidget {
                     const Spacer(
                       flex: 1,
                     ),
-                    const Text(
+                    Text(
                       'Or continue with',
                       style: TextStyle(
-                        color: Colors.grey,
+                        color: Colors.grey.shade700,
                         fontSize: 16,
                       ),
                     ),

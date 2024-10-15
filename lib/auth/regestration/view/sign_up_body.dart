@@ -29,8 +29,8 @@ class SignUpBody extends StatelessWidget {
                     ),
                     Image.asset(
                       'assets/images/logo.png',
-                      height: 70,
-                      width: 70,
+                      height: 100,
+                      width: 100,
                     ),
                     const Text(
                       'Mobile Store',
@@ -57,10 +57,10 @@ class SignUpBody extends StatelessWidget {
                     ),
                     Row(
                       children: [
-                        const Text(
+                        Text(
                           'Already have account?',
                           style: TextStyle(
-                            color: Colors.grey,
+                            color: Colors.grey.shade700,
                             fontSize: 15,
                           ),
                         ),
@@ -92,8 +92,11 @@ class SignUpBody extends StatelessWidget {
                     MyTextField(
                       controller: controller.nameController,
                       hintText: "Name",
-                      prefixIcon: const Icon(CupertinoIcons.person,
-                          color: Colors.grey, size: 25),
+                      prefixIcon: const Icon(
+                        CupertinoIcons.person,
+                        color: Colors.grey,
+                        size: 25,
+                      ),
                       validatinMethod: Validation().validateName,
                     ),
                     const SizedBox(
