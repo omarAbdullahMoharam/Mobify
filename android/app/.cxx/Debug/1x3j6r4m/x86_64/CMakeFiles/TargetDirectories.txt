@@ -1,0 +1,2 @@
+C:/Users/omarm/Desktop/Mobify/android/app/.cxx/Debug/1x3j6r4m/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/omarm/Desktop/Mobify/android/app/.cxx/Debug/1x3j6r4m/x86_64/CMakeFiles/rebuild_cache.dir
